@@ -135,7 +135,7 @@ endfor
 
 " concealed chars
 if exists('+conceallevel')
-  syntax conceal on
+  syntax conceal off
 endif
 
 syntax spell toplevel

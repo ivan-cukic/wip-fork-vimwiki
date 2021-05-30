@@ -33,9 +33,9 @@ endfunction
 
 function! vimwiki#diary#diary_date_link(...) abort
   if a:0
-    return strftime('%Y-%m-%d', a:1)
+    return strftime('diary-%Y-%m-%d', a:1)
   else
-    return strftime('%Y-%m-%d')
+    return strftime('diary-%Y-%m-%d')
   endif
 endfunction
 
